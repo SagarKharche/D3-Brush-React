@@ -1,0 +1,39 @@
+button {
+  float: left;
+}
+line {
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+text {
+  text-anchor: middle;
+}
+circle {
+  fill: orange;
+  stroke: orange;
+  fill-opacity: 0.5;
+}
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+.axis path {
+  fill: none;
+}
+.axis text {
+  font-size: 0.7em;
+  fill: #555;
+  font-family: sans-serif;
+}
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
